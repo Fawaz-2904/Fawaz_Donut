@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recent Blog Post</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .title {
+            font-size: 36px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        .subtitle {
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+        .posts {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .post {
+            width: 23%;
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .post img {
+            width: 100%;
+            height: auto;
+        }
+        .post .date {
+            font-size: 14px;
+            color: #999;
+            margin: 10px 0;
+        }
+        .post .title {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .post .author {
+            font-size: 14px;
+            color: #999;
+            margin: 10px 0;
+        }
+        .post .description {
+            font-size: 14px;
+            color: #555;
+            margin: 10px 0;
+        }
+        .post .read-more {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #007BFF;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .video-post .play-button {
+            position: absolute;
+            top: 22%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #ff0;
+            color: #000;
+            border: none;
+            border-radius: 50%;
+            font-size: 24px;
+            padding: 10px;
+        }
+        .video-post {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="title">NEWS</div>
+    <div class="subtitle">Recent Blog Post</div>
+    <div class="posts">
+        <div class="post">
+            <img src="https://pic.pikbest.com/02/02/08/86i888piCA9G.jpg!bw700" alt="Gallery Image">
+            <div class="date">23 July 2016</div>
+            <div class="title">GALLERY IMAGE POST</div>
+            <div class="author">By Admin . In Logo . 1 comment</div>
+            <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+            <a href="#" class="read-more">Read More</a>
+        </div>
+        <div class="post">
+            <img src="https://pic.pikbest.com/best/video_preview_img/1912/305675.jpg!bw700" alt="Single Image">
+            <div class="date">23 July 2016</div>
+            <div class="title">SINGLE IMAGE POST</div>
+            <div class="author">By Admin . In Logo . 1 comment</div>
+            <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+            <a href="#" class="read-more">Read More</a>
+        </div>
+        <div class="post video-post">
+            <img src="https://img.pikbest.com/video/20240627/group-business-slideshow-video_10640242.jpg!sw800" alt="Video Image">
+            <button class="play-button">▶</button>
+            <div class="date">23 July 2016</div>
+            <div class="title">VIDEO POST</div>
+            <div class="author">By Admin . In Logo . 1 comment</div>
+            <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+            <a href="#" class="read-more">Read More</a>
+        </div>
+        <div class="post">
+            <img src="https://pic.pikbest.com/best/video_preview_img/1912/194099.jpg!bw700" alt="Gallery Image">
+            <div class="date">23 July 2016</div>
+            <div class="title">GALLERY IMAGE POST</div>
+            <div class="author">By Admin . In Logo . 1 comment</div>
+            <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+            <a href="#" class="read-more">Read More</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
